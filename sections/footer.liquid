@@ -110,7 +110,7 @@
                 <div class="footer__block footer__block--social" style="{{ block_style }}" {{ block.shopify_attributes }}>
 
 				  {%- if block.settings.logo_social -%}
-					<img src="{{ block.settings.logo_social | image_url }}" alt="Logo" width="150px" height="auto">
+					<img src="{{ block.settings.logo_social | image_url }}" alt="Logo" width="{{ block.settings.logo_social_width }}" height="auto">
 				  {%- endif -%}
 
                   {%- if title != blank -%}
@@ -427,6 +427,15 @@
                     "label": "Logo",
                     "type": "image_picker",
                     "id": "logo_social"
+                },
+				{
+                    "label": "Logo Width",
+                    "type": "range",
+					"min": 100,
+					"max": 200,
+					"step": 1,
+					"default": 150,
+                    "id": "logo_social_width"
                 },
                 {
                     "type": "text",
