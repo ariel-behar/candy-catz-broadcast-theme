@@ -1,0 +1,11 @@
+{
+    "cSpell.ignoreWords": [
+        "candycatz",
+        "catz",
+        "myshopify"
+    ],
+    "[liquid]": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
+        "editor.formatOnSave": false,
+    }
+}
