@@ -24099,10 +24099,8 @@ body.has-header-sticky .timeline {
   margin: 0;
 }
 
-
 .index-product .product__content {
-  padding-top: 20px;
-  padding-left: 20px;
+  padding: 20px;
 }
 .index-product .radio__fieldset .radio__button input:checked ~ label {
   border-color: var(--primary);
@@ -24131,6 +24129,9 @@ body.has-header-sticky .timeline {
 @media only screen and (max-width: 749px) {
   .template-product .grid.multicolumn.grid--mobile-vertical {
     --columns: 1;
+  }
+  .index-product .product__content {
+    padding: 10px;
   }
 }
 
