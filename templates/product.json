@@ -231,14 +231,14 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "Related products",
+            "product_recommendations_heading": "RELATED PRODUCTS",
             "limit": 6
           }
         },
         "recent_AMxW4H": {
           "type": "recent",
           "settings": {
-            "product_recently_heading": "Recently viewed",
+            "product_recently_heading": "RECENTLY VIEWED",
             "product_recently_limit": 6
           }
         }
