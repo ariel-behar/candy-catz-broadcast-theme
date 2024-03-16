@@ -24082,6 +24082,13 @@ body.has-header-sticky .timeline {
   padding: 10px 18px;
 }
 
+/* 1-column display of the "multicolumn" objects in the the product template on small screens */
+@media only screen and (max-width: 749px) {
+  .template-product .grid.multicolumn.grid--mobile-vertical {
+    --columns: 1;
+  }
+}
+
 /* Fixing the Footer columns layout on small and medium screens */
 @media only screen and (min-width: 507px) and (max-width: 989px) {
   .footer__blocks {
