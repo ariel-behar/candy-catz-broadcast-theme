@@ -24073,3 +24073,8 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+
+/* Making the padding of the filter buttons on the collection page smaller */
+.popout--group .popout__toggle, .popout--sort .popout__toggle {
+  padding: 10px 18px;
+}
