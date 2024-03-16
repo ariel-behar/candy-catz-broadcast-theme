@@ -7,6 +7,7 @@
       "blocks": {
         "cart-message": {
           "type": "cart-message",
+          "disabled": true,
           "settings": {
             "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10<\/strong> for 10% off your first order.<\/p>",
             "cart_custom_message_color": "",
@@ -17,14 +18,6 @@
           "type": "title",
           "settings": {
             "title": "Cart"
-          }
-        },
-        "free-shipping": {
-          "type": "free-shipping",
-          "settings": {
-            "message": "You are ||amount|| away from free shipping.",
-            "free_shipping_gradient": "",
-            "pin_to_bottom": false
           }
         },
         "products": {
@@ -47,12 +40,6 @@
             "pin_to_bottom": false
           }
         },
-        "gift-note": {
-          "type": "gift-note",
-          "settings": {
-            "pin_to_bottom": false
-          }
-        },
         "checkout-buttons": {
           "type": "checkout-buttons",
           "settings": {
@@ -60,17 +47,22 @@
             "show_view_cart_button": false,
             "pin_to_bottom": true
           }
+        },
+        "shipping_estimate_UyqBfK": {
+          "type": "shipping-estimate",
+          "settings": {
+            "pin_to_bottom": false
+          }
         }
       },
       "block_order": [
         "cart-message",
         "title",
-        "free-shipping",
         "products",
         "upsell-products",
         "order-note",
-        "gift-note",
-        "checkout-buttons"
+        "checkout-buttons",
+        "shipping_estimate_UyqBfK"
       ],
       "settings": {
       }

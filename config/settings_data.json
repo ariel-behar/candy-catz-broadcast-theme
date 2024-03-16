@@ -63,6 +63,7 @@
     "sale_badge": true,
     "color_swatches": false,
     "swatch_style": "circle",
+    "cart_type": "drawer",
     "enable_accept_terms": false,
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
