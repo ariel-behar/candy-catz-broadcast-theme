@@ -24097,6 +24097,21 @@ nav.drawer .drawer__body .drawer__menu {
 }
 
 /*----- HOME PAGE -----*/
+/* Adding additional styles to the Join Our Instagram coven title on mobile and desktop */
+#join-instagram-coven-div {
+    padding: 30px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 749px) {
+  #join-instagram-coven-div {
+    flex-direction: column;
+  }
+}
+
+
 /* Changing the colors of the scroll to top button */
 .btn.btn--scroll-top.btn--solid.is-visible {
   background-color: var(--primary);
