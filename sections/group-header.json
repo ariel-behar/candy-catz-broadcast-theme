@@ -1,1 +1,148 @@
-{"type":"header","name":"Header","sections":{"announcement":{"type":"announcement","blocks":{"text_fpe78z":{"type":"text","settings":{"text":"<p>BUY ONE, GET ONE 70% OFF SHOPWIDE: <a href=\"\/collections\/shop-all\" title=\"Shop all\">CODE XTRABOGO<\/a><\/p>","target_url_enabled":false,"target_url":"shopify:\/\/collections\/shop-all","target_referrer_enabled":false,"target_referrer":"","target_device_enabled":false,"target_device":"mobile"}}},"block_order":["text_fpe78z"],"settings":{"show_border":false,"layout":"slider","slider_speed":7,"text_alignment":"center","show_arrows":false,"marquee_speed":100,"message_spacing":10,"text_size":1,"bg_color":"#f06543","color":"#ffffff"}},"header":{"type":"header","blocks":{"image_tbWE4k":{"type":"image","settings":{"position":"3","image":"shopify:\/\/shop_images\/1.2_98195ab2-de63-4574-9009-77d562daefc8.png","aspect_ratio":1,"wide_image":false,"overlay_opacity":0,"overlay_color":"#000000","title":"WOMEN","link_text":"","link":"shopify:\/\/collections\/best-womens","text_color":""}},"image_kicrTC":{"type":"image","settings":{"position":"3","image":"shopify:\/\/shop_images\/il_fullxfull.4206309420_i62f_9cc70aa4-16fb-418b-b921-085821bfc456.jpg","aspect_ratio":1,"wide_image":false,"overlay_opacity":0,"overlay_color":"#000000","title":"MEN","link_text":"","link":"shopify:\/\/collections\/male-most-wanted","text_color":""}},"image_QWmqPp":{"type":"image","settings":{"position":"4","image":"shopify:\/\/shop_images\/1Crop_412afce4-79e8-458c-a7f5-70dab3dacb69.png","aspect_ratio":1,"wide_image":false,"overlay_opacity":0,"overlay_color":"#000000","title":"WOMEN","link_text":"","link":"","text_color":""}},"image_rwTkW3":{"type":"image","settings":{"position":"5","image":"shopify:\/\/shop_images\/il_fullxfull.4044505721_4obd_c3b38fae-5808-4032-a2f6-974c4becebc9.jpg","aspect_ratio":1,"wide_image":false,"overlay_opacity":0,"overlay_color":"#000000","title":"MEN","link_text":"","link":"","text_color":""}}},"block_order":["image_tbWE4k","image_kicrTC","image_QWmqPp","image_rwTkW3"],"custom_css":[".navlink.navlink--child span {color: #d980ef;}",".grandparent .navlink--child {margin-bottom: 3px;}",".dropdown__family {padding: 5px 0 15px 10px;}"],"settings":{"header_sticky":true,"header_style":"logo_beside","show_separator_line":false,"separator_opacity":50,"show_icons":true,"icon_as_circle":false,"cart_icon_family":"cart","logo":"shopify:\/\/shop_images\/Candy_Catz_Final-0811_160x_a41e4d95-b1f0-4e34-8077-5817aa01d467.jpg","logo_max_limit":150,"logo_max_limit_mobile":140,"main_menu_linklist":"broadcast-theme-main-menu","mobile_menu_linklist":"halloween-mobile-nav","enable_search":true,"show_social_icons":false,"show_locale_selector":false,"show_country_selector":false,"show_country_name":false,"show_country_flag":false,"highlight_item":"SALE","highlight_item_color":"#ff9800","transparent_home":false,"transparent_product_page":false,"transparent_collection":false,"transparent_article":false,"transparent_page":false,"secondary_menu_linklist":"","tertiary_menu_linklist":"","padding_top":15,"padding_bottom":15}}},"order":["announcement","header"]}
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_fpe78z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BUY ONE, GET ONE 70% OFF SHOPWIDE: <a href=\"\/collections\/shop-all\" title=\"Shop all\">CODE XTRABOGO<\/a><\/p>",
+            "target_url_enabled": false,
+            "target_url": "shopify:\/\/collections\/shop-all",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_fpe78z"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "message_spacing": 10,
+        "text_size": 1,
+        "bg_color": "#f06543",
+        "color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_tbWE4k": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "image": "shopify:\/\/shop_images\/1.2_98195ab2-de63-4574-9009-77d562daefc8.png",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "WOMEN",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/best-womens",
+            "text_color": ""
+          }
+        },
+        "image_kicrTC": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "image": "shopify:\/\/shop_images\/il_fullxfull.4206309420_i62f_9cc70aa4-16fb-418b-b921-085821bfc456.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "MEN",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/male-most-wanted",
+            "text_color": ""
+          }
+        },
+        "image_QWmqPp": {
+          "type": "image",
+          "settings": {
+            "position": "4",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "WOMEN",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_rwTkW3": {
+          "type": "image",
+          "settings": {
+            "position": "5",
+            "image": "shopify:\/\/shop_images\/il_fullxfull.4044505721_4obd_c3b38fae-5808-4032-a2f6-974c4becebc9.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "MEN",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tbWE4k",
+        "image_kicrTC",
+        "image_QWmqPp",
+        "image_rwTkW3"
+      ],
+      "custom_css": [
+        ".navlink.navlink--child span {color: #d980ef;}",
+        ".grandparent .navlink--child {margin-bottom: 3px;}",
+        ".dropdown__family {padding: 5px 0 15px 10px;}"
+      ],
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_beside",
+        "show_separator_line": false,
+        "separator_opacity": 50,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "cart",
+        "logo": "shopify:\/\/shop_images\/LogoWebPage.jpg",
+        "logo_max_limit": 150,
+        "logo_max_limit_mobile": 140,
+        "main_menu_linklist": "broadcast-theme-main-menu",
+        "mobile_menu_linklist": "halloween-mobile-nav",
+        "enable_search": true,
+        "show_social_icons": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "SALE",
+        "highlight_item_color": "#ff9800",
+        "transparent_home": false,
+        "transparent_product_page": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
