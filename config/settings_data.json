@@ -332,9 +332,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".btn.btn--scroll-top.btn--solid.is-visible {background-color: var(--primary); border: var(--primary);}",
-      " \/* Adjusting the grid columns on large sizes for the product page *\/@media only screen and (min-width: 1299px) {.product__wrapper--stretch .product__page {grid-template-columns: 2fr 1fr; }}",
-      ".product__page .form__wrapper.is-sticky {position: sticky; top: var(--sticky-top, 0); z-index: 10;}",
       "@media screen and (min-width: 641px) {.collection__sidebar__slider.expanded {position: sticky; top: 160px; }}"
     ]
   }
