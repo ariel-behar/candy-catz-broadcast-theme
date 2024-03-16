@@ -24128,3 +24128,11 @@ body.has-header-sticky .timeline {
     flex-basis: 33%;
   }
 }
+
+/* Adjusting stickiness of filters on Collection page */
+@media screen and (min-width: 641px) {
+  .collection__sidebar__slider.expanded {
+    position: sticky;
+    top: 160px;
+  }
+}
