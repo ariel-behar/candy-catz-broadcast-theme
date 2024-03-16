@@ -24095,6 +24095,12 @@ body.has-header-sticky .timeline {
 }
 
 /*----- PRODUCT PAGE -----*/
+/* Making the slider images for the Related and Recently viewed products smaller */
+.index-product .grid--mobile-slider .grid-item {
+  width: calc(100% - 200px);
+}
+
+/* Adjusting margins and paddings for the product form */
 .index-product .product__wrapper {
   margin: 0;
 }
@@ -24102,6 +24108,8 @@ body.has-header-sticky .timeline {
 .index-product .product__content {
   padding: 20px;
 }
+
+/* Definining the color of the variant boxes */
 .index-product .radio__fieldset .radio__button input:checked ~ label {
   border-color: var(--primary);
   background-color: var(--primary);
@@ -24134,6 +24142,8 @@ body.has-header-sticky .timeline {
     padding: 10px;
   }
 }
+
+
 
 /*----- COLLECTION PAGE -----*/
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
