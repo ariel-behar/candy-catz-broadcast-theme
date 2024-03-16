@@ -24074,6 +24074,18 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 
+/* Menu highlighted nav link animation */
+.navlink--highlight,
+.sliderow__title--highlight {
+  animation: blink 2s infinite linear;
+} 
+
+/* Animation for nav link */
+@keyframes blink {
+  50% {
+    opacity: 0.6;
+  }
+}
 
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
 .grid-classic #CollectionLoop.grid {
