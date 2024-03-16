@@ -24075,7 +24075,10 @@ body.has-header-sticky .timeline {
 /*! ============ Add any custom styles below this line ================== */
 
 
-
+/* Making the gap of the classic layout grid to be smaller. Default is 32px */
+.grid-classic #CollectionLoop.grid {
+  gap: 8px;
+}
 
 /* Making the padding of the filter buttons on the collection page smaller */
 .popout--group .popout__toggle, .popout--sort .popout__toggle {
