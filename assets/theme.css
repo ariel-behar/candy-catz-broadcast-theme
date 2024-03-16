@@ -24074,6 +24074,10 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 /*----- HEADER -----*/
+.header__menu .menu__item .navtext{
+  font-family: var(--FONT-STACK-HEADING);
+}
+
 /* Menu highlighted nav link animation */
 .navlink--highlight,
 .sliderow__title--highlight {
