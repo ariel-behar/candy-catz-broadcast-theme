@@ -24095,6 +24095,17 @@ body.has-header-sticky .timeline {
 }
 
 /*----- PRODUCT PAGE -----*/
+
+.index-product .product__content {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.index-product .radio__fieldset .radio__button input:checked ~ label {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: white;
+}
+
 /* Removing the bottom border from the first variant "Size" */
 .product__block--lines .selector-wrapper .select__fieldset, .product__block--lines .selector-wrapper .radio__fieldset {
  border-bottom: none;
