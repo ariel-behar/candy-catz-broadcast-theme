@@ -24074,7 +24074,20 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 
+
+
+
 /* Making the padding of the filter buttons on the collection page smaller */
 .popout--group .popout__toggle, .popout--sort .popout__toggle {
   padding: 10px 18px;
+}
+
+/* Fixing the Footer columns layout on small and medium screens */
+@media only screen and (min-width: 507px) and (max-width: 989px) {
+  .footer__blocks {
+    flex-flow: row wrap;
+  }
+  .footer__block {
+    flex-basis: 33%;
+  }
 }
