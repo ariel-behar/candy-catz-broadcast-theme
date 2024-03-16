@@ -145,8 +145,7 @@
         "tabs"
       ],
       "custom_css": [
-        ".product__content {padding-top: 20px; padding-left: 20px;}",
-        ".radio__fieldset .radio__button input:checked ~ label {border-color: var(--primary); background-color: var(--primary); color: white;}"
+
       ],
       "settings": {
         "product_sticky_enable": true,
