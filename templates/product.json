@@ -151,7 +151,7 @@
         "product_sticky_enable": true,
         "image_layout": "grid-2",
         "image_size": "stretch",
-        "show_cart_bar": true,
+        "show_cart_bar": false,
         "enable_zoom": true,
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
