@@ -332,7 +332,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media screen and (min-width: 641px) {.collection__sidebar__slider.expanded {position: sticky; top: 160px; }}"
+
     ]
   }
 }
