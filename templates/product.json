@@ -17,6 +17,21 @@
             "padding_bottom": 16
           }
         },
+        "loox_reviews_loox_rating_bxL4AB": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": true
+          }
+        },
         "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB": {
           "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
@@ -111,6 +126,7 @@
       "block_order": [
         "title",
         "price",
+        "loox_reviews_loox_rating_bxL4AB",
         "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB",
         "variants",
         "buttons",
