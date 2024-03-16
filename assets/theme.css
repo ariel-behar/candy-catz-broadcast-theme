@@ -24074,6 +24074,12 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 
+/* Changing the colors of the scroll to top button */
+.btn.btn--scroll-top.btn--solid.is-visible {
+  background-color: var(--primary);
+  border: var(--primary);
+}
+
 
  /* Adjusting the grid columns on large sizes for the product page */
  @media only screen and (min-width: 1299px) {
