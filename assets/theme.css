@@ -24179,10 +24179,6 @@ nav.drawer .drawer__body .drawer__menu {
   gap: 4px;
 }
 
-.grid .product-item__title {
-  font-weight: bold;
-}
-
 /* Making the padding of the filter buttons on the collection page smaller */
 .popout--group .popout__toggle, .popout--sort .popout__toggle {
   padding: 10px 18px;
