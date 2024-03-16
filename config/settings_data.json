@@ -339,7 +339,7 @@
       ".product__page .form__wrapper.is-sticky {position: sticky; top: var(--sticky-top, 0); z-index: 10;}",
       "@media screen and (min-width: 641px) {.collection__sidebar__slider.expanded {position: sticky; top: 160px; }}",
       "\/* 1-column display of the \"multicolumn\" objects in the the product template on small screens *\/@media only screen and (max-width: 749px) {.template-product .grid.multicolumn.grid--mobile-vertical {--columns: 1; }}",
-      "\/* Fixing the Footer columns layout on medium screens *\/@media only screen and (min-width: 537px) and (max-width: 989px) {.footer__block {flex-basis: 33%; }}"
+      "\/* Fixing the Footer columns layout on medium screens *\/@media only screen and (min-width: 537px) and (max-width: 989px) {.footer__blocks {flex-flow: row wrap; } .footer__block {flex-basis: 33%; }}"
     ]
   }
 }
