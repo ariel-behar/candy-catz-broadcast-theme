@@ -212,7 +212,7 @@
             "limit": 6
           }
         },
-        "recent": {
+        "recent_AMxW4H": {
           "type": "recent",
           "settings": {
             "product_recently_heading": "Recently viewed",
@@ -222,7 +222,7 @@
       },
       "block_order": [
         "related",
-        "recent"
+        "recent_AMxW4H"
       ],
       "settings": {
         "enable_tabs": true,
@@ -234,11 +234,24 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "section_recent_products_WCyWmT": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "section_multicolumn_jGFDmN",
-    "related"
+    "related",
+    "section_recent_products_WCyWmT"
   ]
 }
