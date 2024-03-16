@@ -333,8 +333,6 @@
   "platform_customizations": {
     "custom_css": [
       ".btn.btn--scroll-top.btn--solid.is-visible {background-color: var(--primary); border: var(--primary);}",
-      " \/* Menu highlighted nav link *\/.navlink--highlight,.sliderow__title--highlight {animation: blink 2s infinite linear;}",
-      " \/* Animation for nav link *\/@keyframes blink {50% {opacity: 0.6; }}",
       " \/* Adjusting the grid columns on large sizes for the product page *\/@media only screen and (min-width: 1299px) {.product__wrapper--stretch .product__page {grid-template-columns: 2fr 1fr; }}",
       ".product__page .form__wrapper.is-sticky {position: sticky; top: var(--sticky-top, 0); z-index: 10;}",
       "@media screen and (min-width: 641px) {.collection__sidebar__slider.expanded {position: sticky; top: 160px; }}"
