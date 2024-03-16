@@ -20,15 +20,6 @@
             "title": "Cart"
           }
         },
-        "free-shipping": {
-          "type": "free-shipping",
-          "disabled": true,
-          "settings": {
-            "message": "You are ||amount|| away from free shipping.",
-            "free_shipping_gradient": "",
-            "pin_to_bottom": false
-          }
-        },
         "products": {
           "type": "products",
           "settings": {
@@ -49,13 +40,6 @@
             "pin_to_bottom": false
           }
         },
-        "gift-note": {
-          "type": "gift-note",
-          "disabled": true,
-          "settings": {
-            "pin_to_bottom": false
-          }
-        },
         "checkout-buttons": {
           "type": "checkout-buttons",
           "settings": {
@@ -63,17 +47,22 @@
             "show_view_cart_button": false,
             "pin_to_bottom": true
           }
+        },
+        "shipping_estimate_UyqBfK": {
+          "type": "shipping-estimate",
+          "settings": {
+            "pin_to_bottom": false
+          }
         }
       },
       "block_order": [
         "cart-message",
         "title",
-        "free-shipping",
         "products",
         "upsell-products",
         "order-note",
-        "gift-note",
-        "checkout-buttons"
+        "checkout-buttons",
+        "shipping_estimate_UyqBfK"
       ],
       "settings": {
       }
