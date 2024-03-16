@@ -107,7 +107,7 @@
         "tabs": {
           "type": "tab_richtext",
           "settings": {
-            "show_read_more": true,
+            "show_read_more": false,
             "style": "tabs",
             "title_1": "Size & Fit",
             "raw_content_1": "<p>Need to implement size chart<\/p>",
