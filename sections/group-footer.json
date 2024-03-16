@@ -54,7 +54,8 @@
         ".footer__quicklinks li {margin-bottom: 5px; font-size: 16px;}",
         ".footer__block__title {font-size: 20px;}",
         ".footer__blocks {justify-content: center;}",
-        ".footer__block {display: flex; flex-direction: column; align-items: center;}"
+        ".footer__block {display: flex; flex-direction: column; align-items: center;}",
+        "\/* Fixing the Footer columns layout on medium screens *\/@media only screen and (min-width: 750px) and (max-width: 989px) {.footer__block {flex-basis: 33%; }}"
       ],
       "settings": {
         "logo_image_width": 150,
