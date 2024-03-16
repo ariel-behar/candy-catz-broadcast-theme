@@ -332,7 +332,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "\/* Making the gap of the classic layout grid to be smaller. Default is 32px *\/.grid-classic #CollectionLoop.grid {gap: 8px;}",
       ".btn.btn--scroll-top.btn--solid.is-visible {background-color: var(--primary); border: var(--primary);}",
       " \/* Menu highlighted nav link *\/.navlink--highlight,.sliderow__title--highlight {animation: blink 2s infinite linear;}",
       " \/* Animation for nav link *\/@keyframes blink {50% {opacity: 0.6; }}",
