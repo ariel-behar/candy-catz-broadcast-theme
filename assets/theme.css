@@ -24074,6 +24074,10 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 /*----- HEADER -----*/
+
+.header__menu .header__dropdown.is-visible {
+  padding-left: 20px;
+}
 /* Changing the font-family of the header to the one corresponding to the FONT-STACK-HEADING variable */
 .header__menu .menu__item .navtext{
   font-family: var(--FONT-STACK-HEADING);
