@@ -24073,22 +24073,7 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-
-/* Changing the colors of the scroll to top button */
-.btn.btn--scroll-top.btn--solid.is-visible {
-  background-color: var(--primary);
-  border: var(--primary);
-}
-
-
- /* Adjusting the grid columns on large sizes for the product page */
- @media only screen and (min-width: 1299px) {
-  .product__wrapper--stretch .product__page {
-    grid-template-columns: 2fr 1fr;
-  }
-}
-
-
+/*----- HEADER -----*/
 /* Menu highlighted nav link animation */
 .navlink--highlight,
 .sliderow__title--highlight {
@@ -24102,6 +24087,39 @@ body.has-header-sticky .timeline {
   }
 }
 
+/*----- HOME PAGE -----*/
+/* Changing the colors of the scroll to top button */
+.btn.btn--scroll-top.btn--solid.is-visible {
+  background-color: var(--primary);
+  border: var(--primary);
+}
+
+/*----- PRODUCT PAGE -----*/
+/* Removing the bottom border from the first variant "Size" */
+.product__block--lines .selector-wrapper .select__fieldset, .product__block--lines .selector-wrapper .radio__fieldset {
+ border-bottom: none;
+}
+
+/* Hiding the "Items" variant options from the product page */
+.product__block.product__block--lines.product__form__holder.block-padding > div > div > div:nth-child(2) {
+  display: none;
+}
+
+ /* Adjusting the grid columns on large sizes for the product page */
+ @media only screen and (min-width: 1299px) {
+  .product__wrapper--stretch .product__page {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* 1-column display of the "multicolumn" objects in the the product template on small screens */
+@media only screen and (max-width: 749px) {
+  .template-product .grid.multicolumn.grid--mobile-vertical {
+    --columns: 1;
+  }
+}
+
+/*----- COLLECTION PAGE -----*/
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
 .grid-compact .grid {
   gap: 4px;
@@ -24112,13 +24130,15 @@ body.has-header-sticky .timeline {
   padding: 10px 18px;
 }
 
-/* 1-column display of the "multicolumn" objects in the the product template on small screens */
-@media only screen and (max-width: 749px) {
-  .template-product .grid.multicolumn.grid--mobile-vertical {
-    --columns: 1;
+/* Adjusting stickiness of filters on Collection page */
+@media screen and (min-width: 641px) {
+  .collection__sidebar__slider.expanded {
+    position: sticky;
+    top: 160px;
   }
 }
 
+/*----- FOOTER -----*/
 /* Fixing the Footer columns layout on small and medium screens */
 @media only screen and (min-width: 507px) and (max-width: 989px) {
   .footer__blocks {
@@ -24129,10 +24149,3 @@ body.has-header-sticky .timeline {
   }
 }
 
-/* Adjusting stickiness of filters on Collection page */
-@media screen and (min-width: 641px) {
-  .collection__sidebar__slider.expanded {
-    position: sticky;
-    top: 160px;
-  }
-}
