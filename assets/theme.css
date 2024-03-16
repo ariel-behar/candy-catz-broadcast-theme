@@ -24121,8 +24121,11 @@ body.has-header-sticky .timeline {
  border-bottom: none;
 }
 
-/* Hiding the "Items" variant options from the product page */
-.product__block.product__block--lines.product__form__holder.block-padding > div > div > div:nth-child(2) {
+.product__block .product__selectors .radio__fieldset {
+  display: block;
+  padding-bottom: 5px;
+}
+.product__block .product__selectors .radio__legend {
   display: none;
 }
 
