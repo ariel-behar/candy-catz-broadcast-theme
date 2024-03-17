@@ -30,7 +30,7 @@
         "footer-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "info-footer",
+            "linklist": "broadcast-theme-info-menu",
             "title": "INFO",
             "column_width": 20
           }
