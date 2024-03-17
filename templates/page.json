@@ -10,7 +10,7 @@
         "show_content": true,
         "text_size": 2,
         "align_text": "text-center",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "bg_color": "",
         "color": "",
         "padding_top": 50,
