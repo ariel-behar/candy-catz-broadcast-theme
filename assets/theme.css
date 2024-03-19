@@ -24136,6 +24136,10 @@ nav.drawer .drawer__body .drawer__menu {
   padding: 20px;
 }
 
+#shopify-block-loox_reviews_loox_rating_bxL4AB {
+  margin-bottom: 15px;
+}
+
 /* Definining the color of the variant boxes */
 .index-product .radio__fieldset .radio__button input:checked ~ label {
   border-color: var(--primary);
