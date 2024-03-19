@@ -24143,20 +24143,7 @@ nav.drawer .drawer__body .drawer__menu {
   color: white;
 }
 
-/* Removing the bottom border from the first variant "Size" */
-.product__block--lines .selector-wrapper .select__fieldset, .product__block--lines .selector-wrapper .radio__fieldset {
- border-bottom: none;
-}
-
-.product__block .product__selectors .radio__fieldset {
-  display: block;
-  padding-bottom: 5px;
-}
-.product__block .product__selectors .radio__legend {
-  display: none;
-}
-
- /* Adjusting the grid columns on large sizes for the product page */
+/* Adjusting the grid columns on large sizes for the product page */
  @media only screen and (min-width: 1299px) {
   .product__wrapper--stretch .product__page {
     grid-template-columns: 2fr 1fr;
