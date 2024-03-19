@@ -34,8 +34,21 @@
         },
         "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB": {
           "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "disabled": true,
           "settings": {
-            "product": "{{ product }}"
+            "product": ""
+          }
+        },
+        "popup_xcAGBi": {
+          "type": "popup",
+          "settings": {
+            "title": "Size Chart",
+            "text": "",
+            "page": "sizing-chart",
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 10
           }
         },
         "variants": {
@@ -135,6 +148,7 @@
         "price",
         "loox_reviews_loox_rating_bxL4AB",
         "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB",
+        "popup_xcAGBi",
         "variants",
         "buttons",
         "icon_dYwiFr",
