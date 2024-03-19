@@ -63,6 +63,7 @@
     "sale_badge": true,
     "color_swatches": false,
     "swatch_style": "circle",
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32_6887d16e-2ed2-4575-82a6-357d1b9c85c8.png",
     "cart_type": "drawer",
     "enable_accept_terms": false,
     "checkout_logo_position": "left",
@@ -90,6 +91,33 @@
         "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
         "settings": {
+        }
+      },
+      "13396495102645618393": {
+        "type": "shopify:\/\/apps\/infinite-scroll\/blocks\/app-embed\/a3bc84f2-5d30-48ba-bdd2-bc9edbc709f6",
+        "disabled": false,
+        "settings": {
+          "autoLink": true,
+          "offset": -1,
+          "font_size": 1,
+          "borderSize": 1,
+          "borderRadius": 5,
+          "imageMaxWidth": 100,
+          "circleColor": "#016e52",
+          "backgroundButtonLoadmore": "#efefef",
+          "borderColor": "#016e52",
+          "textLoadmoreColor": "",
+          "textLoadingColor": "#121212",
+          "textEndColor": "",
+          "backgroundTextEnd": "",
+          "prevMoreButtonText": "",
+          "loadingText": "Loading ...",
+          "loadMoreButtonText": "Load More",
+          "doneText": "No more items in this collection - you curious cat!",
+          "container": "",
+          "item": "",
+          "pagination": "",
+          "custom_css": ""
         }
       }
     }
