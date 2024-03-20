@@ -72,10 +72,10 @@
         "icon_dYwiFr": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-planet",
+            "icon_name": "icon-flower",
             "icon_size": 20,
-            "icon_color": "#b235ca",
-            "title": "Exclusive Limited-Edition Prints",
+            "icon_color": "#35ca52",
+            "title": "Limited-Edition Art Prints",
             "text_size": 3,
             "width": "full",
             "padding_bottom": 16
@@ -84,10 +84,10 @@
         "icon_VT6hKn": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-ruler",
+            "icon_name": "icon-star",
             "icon_size": 20,
             "icon_color": "#4374d7",
-            "title": "Tested for Perfect Fit on Multiple Bodies",
+            "title": "Tested for Ideal Comfortable Fit",
             "text_size": 3,
             "width": "full",
             "padding_bottom": 16
@@ -99,7 +99,7 @@
             "icon_name": "icon-heart",
             "icon_size": 20,
             "icon_color": "#f40c0c",
-            "title": "Second-Skin Feel with Top-Tier Fabrics",
+            "title": "Soft and Premium Fabrics",
             "text_size": 3,
             "width": "full",
             "padding_bottom": 16
@@ -108,10 +108,10 @@
         "icon_i78Tap": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-shield",
+            "icon_name": "icon-droplet",
             "icon_size": 20,
-            "icon_color": "#000000",
-            "title": "Safe & Secure Checkout",
+            "icon_color": "#d226d0",
+            "title": "Secure & Reliable Payment Process",
             "text_size": 3,
             "width": "full",
             "padding_bottom": 16
@@ -180,13 +180,13 @@
           "type": "icon",
           "settings": {
             "column_width": 32,
-            "icon_name": "icon-heart",
+            "icon_name": "icon-smile",
             "icon_size": 20,
             "icon_alignment": "icon--left",
             "icon_color": "#545454",
-            "title": "30-DAY PARTY GUARANTEE",
+            "title": "30-DAY RETURN GUARANTEE",
             "heading_size": 3,
-            "text": "<p>Just return the item in the first 30-days after your purchase to get a refund or store credit.<\/p>",
+            "text": "<p>You've got a whole 30 days from the day you got your goodies to send 'em back and score either a refund or some store credit<\/p>",
             "text_size": 3
           }
         },
@@ -194,13 +194,13 @@
           "type": "icon",
           "settings": {
             "column_width": 33,
-            "icon_name": "icon-truck",
+            "icon_name": "icon-fast-shipment",
             "icon_size": 20,
             "icon_alignment": "icon--left",
             "icon_color": "#545454",
-            "title": "SHIPPING",
+            "title": "FAST SHIPPING",
             "heading_size": 3,
-            "text": "<p>It takes us 1-5 business days to ship the orders. Once in a blue moon, there might be minor delays.<\/p>",
+            "text": "<p>Our shipping magic usually happens within 1-5 business days. Picture us as the busy bees of the delivery world.<\/p>",
             "text_size": 3
           }
         },
@@ -208,13 +208,13 @@
           "type": "icon",
           "settings": {
             "column_width": 33,
-            "icon_name": "icon-chat",
+            "icon_name": "icon-cloud",
             "icon_size": 20,
             "icon_alignment": "icon--left",
             "icon_color": "#545454",
-            "title": "GET IN TOUCH",
+            "title": "LET'S CHAT",
             "heading_size": 3,
-            "text": "<p>Have questions? <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact us\">Get in touch <\/a>with us at any time.<\/p>",
+            "text": "<p>Wondering about life, the universe, and everything? <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact us\">Get in touch<\/a>, we're always up for a chat!<\/p>",
             "text_size": 3
           }
         }
