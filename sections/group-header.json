@@ -39,6 +39,7 @@
       "blocks": {
         "image_tbWE4k": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "3",
             "image": "shopify:\/\/shop_images\/1.2_98195ab2-de63-4574-9009-77d562daefc8.png",
@@ -54,6 +55,7 @@
         },
         "image_kicrTC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "3",
             "image": "shopify:\/\/shop_images\/il_fullxfull.4206309420_i62f_9cc70aa4-16fb-418b-b921-085821bfc456.jpg",
@@ -69,6 +71,7 @@
         },
         "image_QWmqPp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "4",
             "aspect_ratio": 1,
@@ -83,6 +86,7 @@
         },
         "image_rwTkW3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "5",
             "image": "shopify:\/\/shop_images\/il_fullxfull.4044505721_4obd_c3b38fae-5808-4032-a2f6-974c4becebc9.jpg",
@@ -120,7 +124,7 @@
         "logo_max_limit": 150,
         "logo_max_limit_mobile": 140,
         "main_menu_linklist": "broadcast-theme-main-menu",
-        "mobile_menu_linklist": "halloween-mobile-nav",
+        "mobile_menu_linklist": "mobile-broadcast-menu",
         "enable_search": true,
         "show_social_icons": false,
         "show_locale_selector": false,
