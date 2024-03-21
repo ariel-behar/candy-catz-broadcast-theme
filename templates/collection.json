@@ -5,7 +5,6 @@
       "blocks": {
         "de305a87-1699-4623-83a2-cc252c7b7dea": {
           "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/product-filter\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-          "disabled": true,
           "settings": {
           }
         }
@@ -52,6 +51,7 @@
     },
     "main": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "enable_sort": true,
         "enable_filters": true,
