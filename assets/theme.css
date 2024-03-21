@@ -24151,8 +24151,8 @@ nav.drawer .drawer__body .drawer__menu {
 
 /* Changing the colors of the scroll to top button */
 .btn.btn--scroll-top.btn--solid.is-visible {
-  background-color: var(--primary);
-  border: var(--primary);
+  background-color: #cb4fd4;
+  border: #cb4fd4;
 }
 
 /*----- PRODUCT PAGE -----*/
