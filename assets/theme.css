@@ -24180,20 +24180,22 @@ nav.drawer .drawer__body .drawer__menu {
 
 /*----- COLLECTION PAGE -----*/
 /* Removing the margin-bottom of the filter/sort by toolbar */
-.boost-sd__filter-block .boost-sd__toolbar-container {
+.boost-sd__filter-block .boost-sd-container .boost-sd__toolbar-container {
   margin-bottom: 0;
 }
 
 /* Removing the margins from the collection page elements */
-.boost-sd-layout .boost-sd-right {
+.boost-sd-container .boost-sd-layout .boost-sd-right {
   margin-top: 0;
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .boost-sd-layout .boost-sd__pagination-infinite-scroll-container-button {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .boost-sd__product-item {
   --boostsd-product-list-gap-desktop: 4px;
   --boostsd-product-list-gap-mobile: 4px;
