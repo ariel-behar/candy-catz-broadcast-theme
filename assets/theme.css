@@ -24179,6 +24179,20 @@ nav.drawer .drawer__body .drawer__menu {
 }
 
 /*----- COLLECTION PAGE -----*/
+/* Removing the margin-bottom of the filter/sort by toolbar */
+.boost-sd__filter-block .boost-sd__toolbar-container {
+  margin-bottom: 0;
+}
+
+/* Removing the margins from the collection page elements */
+.boost-sd-layout .boost-sd-right {
+  margin-top: 0;
+}
+
+.boost-sd-layout .boost-sd__pagination-infinite-scroll-container-button {
+  margin-top: 0;
+}
+
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
 .grid-compact .grid {
   gap: 4px;
