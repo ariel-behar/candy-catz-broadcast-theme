@@ -24226,6 +24226,19 @@ nav.drawer .drawer__body .drawer__menu {
   --boostsd-product-list-gap-mobile: 4px;
 }
 
+/* Fixing the "SORT BY" button on mobile */
+@media only screen and (max-width: 767px) {
+  .boost-sd__sorting {
+    order: 2;
+  }
+
+ .boost-sd__sorting-label-wrapper .boost-sd__sorting-label {
+      display: inline-block;
+  }
+  .boost-sd__sorting-label-wrapper .boost-sd__sorting-value {
+      width: auto;
+  }
+}
 
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
 .grid-compact .grid {
