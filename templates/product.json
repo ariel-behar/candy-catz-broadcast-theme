@@ -29,7 +29,7 @@
             "starColor": "",
             "showAllReviews": false,
             "looxOpenFloatingWidget": true,
-            "emptyRatingWidget": true
+            "emptyRatingWidget": false
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB": {
