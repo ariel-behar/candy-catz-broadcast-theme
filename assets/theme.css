@@ -24194,11 +24194,11 @@ nav.drawer .drawer__body .drawer__menu {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-:root {
+.boost-sd__product-item {
   --boostsd-product-list-gap-desktop: 4px;
   --boostsd-product-list-gap-mobile: 4px;
 }
+
 
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
 .grid-compact .grid {
