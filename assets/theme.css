@@ -24073,26 +24073,6 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-/* ---- GENERAL ----- */
-/* Changing the color of the scrollbar */
-::-webkit-scrollbar {
-  width: 0.7em;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ec6af5 ;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #cb4fd4;
-}
-
-
 /*----- HEADER -----*/
 /* Reordering the icons */
 /* Account icon */
@@ -24263,6 +24243,14 @@ nav.drawer .drawer__body .drawer__menu {
   .boost-sd__sorting-label-wrapper .boost-sd__sorting-value {
       width: auto;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .boost-sd__toolbar-content {
+    --boostsd-toolbar-padding-top: 10px;
+    --boostsd-toolbar-padding-bottom: 10px;
+  }
+
 }
 
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
