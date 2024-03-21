@@ -120,6 +120,12 @@
           "pagination": "",
           "custom_css": ""
         }
+      },
+      "98be8eaf-c81a-477b-83db-1b6de7313048": {
+        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
