@@ -24073,6 +24073,26 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/* ---- GENERAL ----- */
+/* Changing the color of the scrollbar */
+::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ec6af5 ;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cb4fd4;
+}
+
+
 /*----- HEADER -----*/
 /* Reordering the icons */
 /* Account icon */
