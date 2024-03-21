@@ -24226,8 +24226,33 @@ nav.drawer .drawer__body .drawer__menu {
   --boostsd-product-list-gap-mobile: 4px;
 }
 
-/* Fixing the "SORT BY" button on mobile */
+
+
+
 @media only screen and (max-width: 767px) {
+  .boost-sd-layout.boost-sd-layout--has-filter-vertical.boost-sd-layout--has-vertical-style-expand {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .boost-sd-right .boost-sd__toolbar-inner .boost-sd__toolbar-content {
+    padding-top: 0;
+  }
+
+  .boost-sd__toolbar-content .boost-sd__toolbar-item.boost-sd__toolbar-item--sorting {
+    padding-bottom: 0;
+  }
+
+  /* Removing some of the toolbars on mobile  */
+  .boost-sd__toolbar-item.boost-sd__toolbar-item--product-count {
+    display: none;
+  }
+
+  .boost-sd__toolbar-item.boost-sd__toolbar-item--view-as {
+    display: none;
+  }
+
+  /* Fixing the "SORT BY" button on mobile */
   .boost-sd__sorting {
     order: 2;
   }
