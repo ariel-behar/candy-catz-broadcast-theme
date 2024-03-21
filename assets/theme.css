@@ -24211,6 +24211,11 @@ nav.drawer .drawer__body .drawer__menu {
   padding-right: 0;
 }
 
+.boost-sd-right .boost-sd__product-list.boost-sd__product-list--margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .boost-sd-layout .boost-sd__pagination-infinite-scroll-container-button {
   margin-top: 0;
   margin-bottom: 0;
