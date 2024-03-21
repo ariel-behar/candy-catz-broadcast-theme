@@ -24187,10 +24187,17 @@ nav.drawer .drawer__body .drawer__menu {
 /* Removing the margins from the collection page elements */
 .boost-sd-layout .boost-sd-right {
   margin-top: 0;
+  padding: 0;
 }
 
 .boost-sd-layout .boost-sd__pagination-infinite-scroll-container-button {
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+:root {
+  --boostsd-product-list-gap-desktop: 4px;
+  --boostsd-product-list-gap-mobile: 4px;
 }
 
 /* Making the gap of the classic layout grid to be smaller. Default is 32px */
