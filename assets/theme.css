@@ -24136,6 +24136,11 @@ nav.drawer .drawer__body .drawer__menu {
 }
 
 /*----- PRODUCT PAGE -----*/
+/* Fixing the bug with the overstreched thumbnails on mobile */
+.index-product .product__thumbs__holder {
+  width: 100%;
+}
+
 /* Making the slider images for the Related and Recently viewed products smaller */
 .grid--slider.grid--mobile-slider .grid-item.product-item {
   width: calc(100% - 200px);
