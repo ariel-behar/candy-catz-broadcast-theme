@@ -24213,7 +24213,6 @@ nav.drawer .drawer__body .drawer__menu {
 
 
 
-
 @media only screen and (max-width: 767px) {
   .boost-sd-layout.boost-sd-layout--has-filter-vertical.boost-sd-layout--has-vertical-style-expand {
     padding-left: 0;
@@ -24274,6 +24273,28 @@ nav.drawer .drawer__body .drawer__menu {
     position: sticky;
     top: 160px;
   }
+}
+
+/* ---- SEARCH PAGE ----- */
+.boost-sd__filter-block .boost-sd__search-result-toolbar-container .boost-sd__search-result-toolbar-item .boost-sd__search-result-toolbar-panel-wrapper{
+  display: none;
+}
+
+.boost-sd__filter-block .boost-sd__button--as-search, .boost-sd__filter-block .boost-sd__button--as-search:focus {
+  --boostsd-button-as-search-background-color: #000;
+}
+
+.boost-sd__filter-block .boost-sd__button--as-search:hover {
+  --boostsd-button-as-search-background-color: #383838;
+}
+
+.boost-sd__filter-block .boost-sd__search-result-toolbar-container {
+  --boostsd-search-result-toolbar-padding: 15px 0;
+}
+
+.boost-sd__filter-block .boost-sd__search-form-wrapper {
+  --boostsd-search-form-wrapper-border-bottom: none;
+  --boostsd-search-form-wrapper-padding: 56px 16px 30px 16px;
 }
 
 /*----- FOOTER -----*/
