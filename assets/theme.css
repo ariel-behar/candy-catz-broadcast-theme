@@ -24108,6 +24108,10 @@ nav.drawer .drawer__body .drawer__menu {
   --btn-text: white;
 }
 
+#predictive-search-results .btn.btn--outline.btn--primary:hover {
+  --btn-text-hover: lightgray;
+}
+
 /* Changing the colors of the titles in the product results when searching in the header */
 #predictive-search-results .product-item__title {
   color: white;
@@ -24116,7 +24120,6 @@ nav.drawer .drawer__body .drawer__menu {
 #predictive-search-results .product-item__title:hover {
   color: lightgray;
 }
-
 
 /* Menu highlighted nav link animation */
 .navlink--highlight,
