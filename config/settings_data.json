@@ -34,9 +34,9 @@
     "btn_primary_bg_color": "#212121",
     "btn_primary_text_color": "#ffffff",
     "btn_primary_border_color": "#212121",
-    "btn_secondary_bg_color": "#ab8c52",
+    "btn_secondary_bg_color": "#000000",
     "btn_secondary_text_color": "#ffffff",
-    "btn_secondary_border_color": "#ab8c52",
+    "btn_secondary_border_color": "#000000",
     "grid_style": "compact",
     "dots_style": "hidden",
     "icon_style": "1.5",
@@ -97,6 +97,12 @@
       "98be8eaf-c81a-477b-83db-1b6de7313048": {
         "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd\/7fc998ae-a150-4367-bab8-505d8a4503f7",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "385851483394302733": {
+        "type": "shopify:\/\/apps\/scroll-freely-infinite-scroll\/blocks\/scroll-freely\/ab81353f-60e9-48db-81f5-5b6037635a06",
+        "disabled": true,
         "settings": {
         }
       }
