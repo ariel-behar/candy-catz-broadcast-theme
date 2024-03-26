@@ -24102,6 +24102,22 @@ nav.drawer .drawer__body .drawer__menu {
   font-family: var(--FONT-STACK-HEADING);
 }
 
+/* Changing the colors of the bottom button when searching via the header */
+#predictive-search-results .btn.btn--outline.btn--primary {
+  --btn-border: white;
+  --btn-text: white;
+}
+
+/* Changing the colors of the titles in the product results when searching in the header */
+#predictive-search-results .product-item__title {
+  color: white;
+}
+
+#predictive-search-results .product-item__title:hover {
+  color: lightgray;
+}
+
+
 /* Menu highlighted nav link animation */
 .navlink--highlight,
 .sliderow__title--highlight {
