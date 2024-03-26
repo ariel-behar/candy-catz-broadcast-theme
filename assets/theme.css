@@ -24110,7 +24110,7 @@ nav.drawer .drawer__body .drawer__menu {
 /* Animation for nav link */
 @keyframes blink {
   50% {
-    opacity: 0.6;
+    opacity: 0.7;
   }
 }
 
