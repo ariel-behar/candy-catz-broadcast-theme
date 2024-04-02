@@ -71,7 +71,7 @@
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#000000",
-    "checkout_input_background_color_mode": "white",
+    "checkout_input_background_color_mode": "transparent",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Open Sans",
     "checkout_body_font": "Open Sans",
