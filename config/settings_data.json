@@ -75,7 +75,7 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Open Sans",
     "checkout_body_font": "Open Sans",
-    "checkout_accent_color": "#000000",
+    "checkout_accent_color": "#cb4fd4",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#c85c42",
     "checkout_layout": "onepage",
