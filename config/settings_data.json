@@ -69,7 +69,7 @@
     "enable_accept_terms": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoWebPage.jpg",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#000000",
     "checkout_input_background_color_mode": "transparent",
     "checkout_sidebar_background_color": "#fafafa",
