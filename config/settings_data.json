@@ -68,7 +68,7 @@
     "cart_type": "drawer",
     "enable_accept_terms": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/Candy_Catz_Final-05.jpg",
-    "checkout_logo_position": "center",
+    "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
