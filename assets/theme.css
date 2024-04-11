@@ -24074,6 +24074,13 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 /*----- HEADER -----*/
+/* Making the announcement bar fixed on top of the page */
+.header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
+  position: fixed;
+  top: 0;
+  z-index: 6000;
+}
+
 /* Reordering the icons */
 /* Account icon */
 .header__desktop__buttons.header__desktop__buttons--icons .header__desktop__button:nth-of-type(1) {
