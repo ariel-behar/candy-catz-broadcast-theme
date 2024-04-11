@@ -113,7 +113,7 @@
         ".dropdown__family {padding: 5px 0 15px 10px;}"
       ],
       "settings": {
-        "header_sticky": true,
+        "header_sticky": false,
         "header_style": "logo_beside",
         "show_separator_line": false,
         "separator_opacity": 50,
