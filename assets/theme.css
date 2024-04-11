@@ -24080,6 +24080,12 @@ body.has-header-sticky .timeline {
   top: 0;
   z-index: 6000;
 }
+/* adding additional padding for the announcement bar not to hide the header on mobile */
+@media only screen and (max-width: 749px) {
+  .header-sections header.theme__header .section-padding {
+    --padding-top: calc(var(--PT)* 0.9);
+  }
+}
 
 /* Reordering the icons */
 /* Account icon */
