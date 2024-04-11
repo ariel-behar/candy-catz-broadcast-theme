@@ -24,11 +24,11 @@
       "settings": {
         "show_border": false,
         "layout": "marquee",
-        "slider_speed": 7,
+        "slider_speed": 8,
         "text_alignment": "center",
         "show_arrows": false,
         "marquee_speed": 100,
-        "message_spacing": 10,
+        "message_spacing": 50,
         "text_size": 1,
         "bg_color": "#f06543",
         "color": "#ffffff"
