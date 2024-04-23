@@ -420,8 +420,6 @@
           // });
         {% endunless %}
         var cartItemsJson = {{ cart | json }};
-
-      cosole.log(cartItemsJson);
         jQuery351(document).on('click', ".cart__item__remove", function(event) {
           var removedvid = jQuery351(this).attr("data-vid");
           console.log(removedvid);
@@ -430,7 +428,6 @@
           })
           var removedItem = removedItemData[0];
 
-          console.log(removedItem);
           window.dataLayer.push({
             event:'ee_removeFromCart',
             name: removedItem.product_title,
