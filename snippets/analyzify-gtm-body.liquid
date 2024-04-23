@@ -243,18 +243,18 @@
             g_product_id: "shopify_BG_"+productId+"_"+"{{ product.selected_variant.id | default: product.variants[0].id }}",
             variant_id: "{{ product.selected_variant.id | default: product.variants[0].id }}"
           });
-  //         var first_atc = null;
-  //         var selectors = ["input[name='add']", "button[name='add']", "#add-to-cart", "#AddToCartText", "#AddToCart", ".gtmatc", ".product-form__cart-submit", "#AddToCart-product-template", ".product-form__add-to-cart"];
-  //         var found_selectors = 0;
-  //         selectors.forEach(function(selector) {
-  //           found_selectors += jQuery351(selector).length;
-  //           if (first_atc == null && found_selectors) {
-  //             first_atc = selector
-  //           }
-  //         });
-  //         if (jQuery351(first_atc).length > 0 ) {
+           var first_atc = null;
+           var selectors = ["input[name='add']", "button[name='add']", "#add-to-cart", "#AddToCartText", "#AddToCart", ".gtmatc", ".product-form__cart-submit", "#AddToCart-product-template", ".product-form__add-to-cart"];
+      var found_selectors = 0;
+           selectors.forEach(function(selector) {
+         found_selectors += jQuery351(selector).length;
+           if (first_atc == null && found_selectors) {
+            first_atc = selector
+           }
+           });
+           if (jQuery351(first_atc).length > 0 ) {
 
-            jQuery351(document).on('click', "button[name='add']", function(event) {
+            //jQuery351(document).on('click', "button[name='add']", function(event) {
               var productForm = jQuery351(this).parents('form[action="/cart/add"]');
               var variantInput = productForm.find('*[name="id"]')
               var quantityInput = productForm.find('input[name="quantity"]')
@@ -273,8 +273,8 @@
                 variant: variantInput.val(),
                 g_product_id: "shopify_BG_"+productId+"_"+variantInput.val()
               });
-            });
-  //         }
+          //  });
+         }
         };
 
         window.checkoutEvent = function(){
