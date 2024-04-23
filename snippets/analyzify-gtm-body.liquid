@@ -420,6 +420,8 @@
           // });
         {% endunless %}
         var cartItemsJson = {{ cart | json }};
+
+      var_dump(cartItemsJson);
         jQuery351(document).on('click', ".cart__item__remove", function(event) {
           var removedvid = jQuery351(this).attr("data-vid");
           console.log(removedvid);
