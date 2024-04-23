@@ -259,7 +259,7 @@
               var variantInput = productForm.find('*[name="id"]')
               var quantityInput = productForm.find('input[name="quantity"]')
               var itemQuantity = quantityInput.length > 0 ? quantityInput.val() : 1
-              
+
               window.dataLayer.push({
                 event: 'ee_addToCart',
                 name: productName,
@@ -426,6 +426,8 @@
             return item.variant_id.toString() === removedvid
           })
           var removedItem = removedItemData[0];
+
+          console.log(removedItem);
           window.dataLayer.push({
             event:'ee_removeFromCart',
             name: removedItem.product_title,
