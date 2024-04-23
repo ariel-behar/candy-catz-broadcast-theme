@@ -438,7 +438,7 @@
           });
         });
 
-          jQuery351(document).on('click', ".cart_ac_remove", function(event) {
+          jQuery351(document).on('click', ".cart__item__remove", function(event) {
           var removedvid = jQuery351(this).attr("data-id").split(':')[0];
           jQuery351.getJSON('/cart.js', function(cart) {
             var removedItemData = cart.items.filter(function(item){
