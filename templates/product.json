@@ -154,7 +154,7 @@
         "upsell_Miyb47": {
           "type": "upsell",
           "settings": {
-            "upsell_product": "",
+            "upsell_product": "custom-peekok-wings-set",
             "upsell_product_list": [
               "jack-bag",
               "ivory-sepulcher-white-coffin-bag",
