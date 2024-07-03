@@ -154,7 +154,7 @@
         "upsell_Miyb47": {
           "type": "upsell",
           "settings": {
-            "upsell_product": "custom-peekok-wings-set",
+            "upsell_product": "jack-bag",
             "upsell_product_list": [
 
             ],
