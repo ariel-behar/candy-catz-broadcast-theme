@@ -156,9 +156,7 @@
           "settings": {
             "upsell_product": "custom-peekok-wings-set",
             "upsell_product_list": [
-              "jack-bag",
-              "ivory-sepulcher-white-coffin-bag",
-              "amor-heart-bag"
+
             ],
             "bg_color": "",
             "padding_bottom": 16
