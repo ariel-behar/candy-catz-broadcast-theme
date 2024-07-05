@@ -461,13 +461,14 @@
         "image_7wDiVD"
       ],
       "custom_css": [
-        ".wrapper--full-padded {padding-left: 0; padding-right: 0;}"
+        ".wrapper--full-padded {padding-left: 0; padding-right: 0;}",
+        "@media only screen and (min-width: 750px) {.section-columns .grid .grid-item:last-child {display: none; }}"
       ],
       "settings": {
         "title": "",
         "heading_size": 5,
         "layout": "grid",
-        "grid": 6,
+        "grid": 5,
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
