@@ -24085,6 +24085,18 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/* GENERAL */
+/* Making the slider images for the Related and Recently viewed products smaller */
+.grid--slider .grid-item.product-item {
+	max-width: 330px;
+}
+  
+@media only screen and (max-width: 749px) {
+	.grid--slider .grid-item.product-item {
+		max-width: 220px;
+	}
+}
+
 /*----- HEADER -----*/
 /* Making the announcement bar fixed on top of the page */
 .header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
