@@ -24098,11 +24098,16 @@ body.has-header-sticky .timeline {
 }
 
 /*----- HEADER -----*/
+/* Making the drawer be on top of the announcement bar */
+.drawer.drawer--header.drawer--animated {
+  z-index: 7001;
+}
+
 /* Making the announcement bar fixed on top of the page */
 .header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
   position: fixed;
   top: 0;
-  z-index: 3000;
+  z-index: 6000;
 }
 
 /* Adjusting the height of the announcement bar */
