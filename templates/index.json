@@ -207,6 +207,48 @@
         "color": "#FFFFFF"
       }
     },
+    "section_tab_collections_Lj3G4p": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_4ep79h": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "pride-2024",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_4ep79h"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 2,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -448,6 +490,7 @@
     "section_hero_PFp7m6",
     "section_tab_collections_Wc3GNb",
     "section_hero_qjKLXr",
+    "section_tab_collections_Lj3G4p",
     "slideshow",
     "image-with-text",
     "product-with-image",
