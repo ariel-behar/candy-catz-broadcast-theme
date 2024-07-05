@@ -249,6 +249,58 @@
         "padding_bottom": 10
       }
     },
+    "section_collections_list_kJRpaF": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_ALayeN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify:\/\/shop_images\/DarkDesk.jpg",
+            "title": "&nbsp;"
+          }
+        },
+        "collection_EzHcTJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify:\/\/shop_images\/primalDesk.jpg",
+            "title": " &nbsp;"
+          }
+        },
+        "collection_rcUW9T": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify:\/\/shop_images\/uvPulseDesk.jpg",
+            "title": "&nbsp;"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ALayeN",
+        "collection_EzHcTJ",
+        "collection_rcUW9T"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "button_text": "",
+        "button_url": "shopify:\/\/collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout": "grid",
+        "aspect_ratio": 1.5,
+        "grid": 3,
+        "layout_mobile": "1",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -491,6 +543,7 @@
     "section_tab_collections_Wc3GNb",
     "section_hero_qjKLXr",
     "section_tab_collections_Lj3G4p",
+    "section_collections_list_kJRpaF",
     "slideshow",
     "image-with-text",
     "product-with-image",
