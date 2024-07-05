@@ -479,6 +479,51 @@
         "layout_mobile": "2"
       }
     },
+    "section_columns_L8WDEH": {
+      "type": "section-columns",
+      "blocks": {
+        "image_yyCTAX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shinyDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_yyCTAX"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.section-columns {display: none; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -723,6 +768,7 @@
     "section_tab_collections_Lj3G4p",
     "section_columns_A4ftKr",
     "section_columns_4WHbj7",
+    "section_columns_L8WDEH",
     "slideshow",
     "image-with-text",
     "product-with-image",
