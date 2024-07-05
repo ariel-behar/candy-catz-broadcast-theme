@@ -69,6 +69,84 @@
         "padding_bottom": 10
       }
     },
+    "section_hero_9QPMnh": {
+      "type": "section-hero",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/raveWaveDesk_358ffaf1-4616-48f9-ac08-00e1ac837634.jpg",
+        "link": "shopify:\/\/collections\/rave",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/raveWaveMobile.jpg",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "section_tab_collections_aqTECq": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_ExxwCQ": {
+          "type": "collection",
+          "settings": {
+            "title": "Rave Wave",
+            "featured_collection": "rave",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_ExxwCQ"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 2,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_hero_PFp7m6": {
+      "type": "section-hero",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/menFavesDesk.jpg",
+        "link": "",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/menMobile_copy.jpg",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -245,84 +323,6 @@
         "padding_bottom": 0
       }
     },
-    "section_hero_9QPMnh": {
-      "type": "section-hero",
-      "settings": {
-        "height": "image-height",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/raveWaveDesk_358ffaf1-4616-48f9-ac08-00e1ac837634.jpg",
-        "link": "shopify:\/\/collections\/rave",
-        "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/raveWaveMobile.jpg",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#FFFFFF"
-      }
-    },
-    "section_tab_collections_aqTECq": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_ExxwCQ": {
-          "type": "collection",
-          "settings": {
-            "title": "Rave Wave",
-            "featured_collection": "rave",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_ExxwCQ"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 2,
-        "rows": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
-    "section_hero_PFp7m6": {
-      "type": "section-hero",
-      "settings": {
-        "height": "image-height",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/menFavesDesk.jpg",
-        "link": "",
-        "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/menMobile_copy.jpg",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#FFFFFF"
-      }
-    },
     "section_custom_code_k3793W": {
       "type": "section-custom-code",
       "settings": {
@@ -383,12 +383,12 @@
   "order": [
     "section_hero_WzHaFX",
     "tabs",
-    "slideshow",
-    "image-with-text",
-    "product-with-image",
     "section_hero_9QPMnh",
     "section_tab_collections_aqTECq",
     "section_hero_PFp7m6",
+    "slideshow",
+    "image-with-text",
+    "product-with-image",
     "section_custom_code_k3793W",
     "1709024451cfcbbc24",
     "17090352937390cc62"
