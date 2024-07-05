@@ -189,6 +189,24 @@
         "padding_bottom": 10
       }
     },
+    "section_hero_qjKLXr": {
+      "type": "section-hero",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/prideDesk.jpg",
+        "link": "shopify:\/\/collections\/pride-2024",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/prideMOBILE_copy.jpg",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -429,6 +447,7 @@
     "section_tab_collections_aqTECq",
     "section_hero_PFp7m6",
     "section_tab_collections_Wc3GNb",
+    "section_hero_qjKLXr",
     "slideshow",
     "image-with-text",
     "product-with-image",
