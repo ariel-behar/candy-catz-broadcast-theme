@@ -376,6 +376,144 @@
         "padding_bottom": 10
       }
     },
+    "section_columns_4WHbj7": {
+      "type": "section-columns",
+      "blocks": {
+        "image_MPCHRe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meshDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/mesh-female",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DcEGrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dressesDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_AWpFpX": {
+          "type": "image",
+          "settings": {
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_PEhUEH": {
+          "type": "image",
+          "settings": {
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_dYeyBh": {
+          "type": "image",
+          "settings": {
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7wDiVD": {
+          "type": "image",
+          "settings": {
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MPCHRe",
+        "image_DcEGrJ",
+        "image_AWpFpX",
+        "image_PEhUEH",
+        "image_dYeyBh",
+        "image_7wDiVD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
     "slideshow": {
       "type": "section-slideshow",
       "blocks": {
@@ -620,6 +758,7 @@
     "section_tab_collections_Lj3G4p",
     "section_columns_A4ftKr",
     "section_tab_collections_GTfVKm",
+    "section_columns_4WHbj7",
     "slideshow",
     "image-with-text",
     "product-with-image",
