@@ -6,11 +6,11 @@
 
   assign button_text = 'products.product.add_to_cart' | t
   if preorder
-    assign button_text =  'products.product.pre_order' | t
+    assign button_text = 'products.product.pre_order' | t
   endif
 
   unless current_variant.available
-    assign button_text =  'products.product.sold_out' | t
+    assign button_text = 'products.product.sold_out' | t
   endunless
 
   if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
@@ -97,7 +97,8 @@
   {%- endif -%}
 {%- endcapture -%}
 
-<div class="product__block product__block--buttons block-padding"
+<div
+  class="product__block product__block--buttons block-padding"
   {{ block_style }}
   {{ block.shopify_attributes }}
 >
@@ -107,12 +108,14 @@
         {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
       {%- endif -%}
 
-      <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}"
+      <div
+        class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}"
         {% if animation_name %}
           data-animation="{{ animation_name }}"
           data-animation-duration="{{ animation_duration }}"
           data-animation-delay="{{ animation_delay }}"
-        {% endif %}>
+        {% endif %}
+      >
         <div class="product__form__errors" data-cart-errors-container></div>
 
         <div class="product__submit__buttons{% if buybutton_setting and show_quantity == false %} product__submit__buttons--inline{% endif %}">
@@ -123,8 +126,12 @@
               type="submit"
               name="add"
               class="btn btn--primary {{ btn_atc_class }}"
+              id="add_to_cart_product_page"
               data-add-to-cart
-              {% unless current_variant.available %}disabled="disabled"{% endunless %}>
+              {% unless current_variant.available %}
+                disabled="disabled"
+              {% endunless %}
+            >
               <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
               <span class="btn__added">&nbsp;</span>
 
