@@ -30,17 +30,18 @@
     "section_rich_text_KMztLj": {
       "type": "section-rich-text",
       "blocks": {
-        "heading_preqtK": {
-          "type": "heading",
+        "text_WLKd69": {
+          "type": "text",
           "settings": {
-            "title": "COLLECTIONS",
-            "text_size": 15,
-            "padding_bottom": 0
+            "text": "<p>COLLECTIONS<\/p>",
+            "text_size": 11,
+            "text_style": "font-heading",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "heading_preqtK"
+        "text_WLKd69"
       ],
       "settings": {
         "width": "wrapper",
