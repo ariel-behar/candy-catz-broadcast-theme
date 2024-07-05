@@ -108,13 +108,109 @@
             "link": "",
             "text_color": ""
           }
+        },
+        "image_wnnKKU": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/RaveWaveSearchBAr.2.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/rave",
+            "text_color": ""
+          }
+        },
+        "image_3wN3Cm": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/obisidiaSearchBAr_2.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/obsidia",
+            "text_color": ""
+          }
+        },
+        "image_JMej6B": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/darkSearchBar_copy2.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_BVGCmT": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/uvPulseSearchBar_copy.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_6Gf7CC": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/menSearchBar_2.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_j73KPt": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/view_all_copy.jpg",
+            "aspect_ratio": 0.9,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "image_tbWE4k",
         "image_kicrTC",
         "image_QWmqPp",
-        "image_rwTkW3"
+        "image_rwTkW3",
+        "image_wnnKKU",
+        "image_3wN3Cm",
+        "image_JMej6B",
+        "image_BVGCmT",
+        "image_6Gf7CC",
+        "image_j73KPt"
       ],
       "custom_css": [
         ".navlink.navlink--child span {color: #d980ef;}",
@@ -132,7 +228,7 @@
         "logo": "shopify:\/\/shop_images\/XxxLogo.jpg",
         "logo_max_limit": 125,
         "logo_max_limit_mobile": 125,
-        "main_menu_linklist": "broadcast-theme-main-menu",
+        "main_menu_linklist": "test-menu",
         "mobile_menu_linklist": "mobile-broadcast-menu",
         "enable_search": true,
         "show_social_icons": false,

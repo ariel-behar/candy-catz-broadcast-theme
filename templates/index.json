@@ -334,49 +334,6 @@
         "layout_mobile": "1"
       }
     },
-    "section_tab_collections_GTfVKm": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_QdRfbX": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "uv-bodysuits",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_QdRfbX"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 2,
-        "rows": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
     "section_columns_4WHbj7": {
       "type": "section-columns",
       "blocks": {
@@ -504,7 +461,54 @@
         "image_7wDiVD"
       ],
       "custom_css": [
-        ".wrapper--full-padded {padding-left: 0; padding-right: 0;}"
+        ".wrapper--full-padded {padding-left: 0; padding-right: 0;}",
+        "@media only screen and (min-width: 990px) {.section-columns .grid .grid-item:last-child {display: none; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 5,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_L8WDEH": {
+      "type": "section-columns",
+      "blocks": {
+        "image_yyCTAX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shinyDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_yyCTAX"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.section-columns {display: none; }}"
       ],
       "settings": {
         "title": "",
@@ -517,9 +521,9 @@
         "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "layout_mobile": "2"
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
       }
     },
     "slideshow": {
@@ -765,8 +769,8 @@
     "section_hero_qjKLXr",
     "section_tab_collections_Lj3G4p",
     "section_columns_A4ftKr",
-    "section_tab_collections_GTfVKm",
     "section_columns_4WHbj7",
+    "section_columns_L8WDEH",
     "slideshow",
     "image-with-text",
     "product-with-image",
