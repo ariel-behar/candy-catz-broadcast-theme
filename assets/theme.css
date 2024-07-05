@@ -24223,6 +24223,16 @@ nav.drawer .drawer__body .drawer__menu {
   padding: 20px;
 }
 
+/* Adjusting the padding of the product images */
+.index-product .product__slides.product-single__photos {
+  column-gap: 1px;
+}
+
+/* Adjusting the padding of the product images */
+.index-product .product__slides.product-single__photos .product__slide {
+  padding-bottom: 1px;
+}
+
 #shopify-block-loox_reviews_loox_rating_bxL4AB {
   margin-bottom: 15px;
 }
