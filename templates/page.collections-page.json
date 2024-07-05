@@ -367,7 +367,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
-        "bg_color": "",
+        "bg_color": "#000000",
         "color": "",
         "padding_top": 50,
         "padding_bottom": 50,
