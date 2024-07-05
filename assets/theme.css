@@ -145,6 +145,7 @@ https://flickity.metafizzy.co
   width: 100%;
   height: 100%;
   touch-action: pan-y;
+  user-select: none;
   -webkit-user-select: none;
   -webkit-user-drag: none;
 }
@@ -1968,6 +1969,7 @@ body:not(.is-focused) .shopify-model-viewer-ui .shopify-model-viewer-ui__button:
   z-index: 1000;
   -webkit-text-size-adjust: 100%;
   /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   outline: none;
 }
@@ -2029,6 +2031,7 @@ body:not(.is-focused) .shopify-model-viewer-ui .shopify-model-viewer-ui__button:
   background: var(--underlay-bg);
   opacity: 0;
   transform: translateZ(0);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   will-change: opacity;
 }
@@ -2082,6 +2085,7 @@ body:not(.is-focused) .shopify-model-viewer-ui .shopify-model-viewer-ui__button:
 
 .pswp__container,
 .pswp__zoom-wrap {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
@@ -2107,6 +2111,7 @@ body:not(.is-focused) .shopify-model-viewer-ui .shopify-model-viewer-ui__button:
 	style is added to avoid flickering in webkit/blink when layers overlap
 */
 .pswp__img--placeholder {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
@@ -16383,12 +16388,14 @@ input.cart__acceptance__input {
   text-align: center;
 }
 .no-js .cart__quantity .cart__quantity-field {
+  appearance: auto;
   -moz-appearance: auto;
 }
 .no-js .cart__quantity .cart__quantity-field::-webkit-outer-spin-button, .no-js .cart__quantity .cart__quantity-field::-webkit-inner-spin-button {
   -webkit-appearance: auto;
 }
 .cart__quantity input[type=number] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 .cart__quantity input[type=number]::-webkit-outer-spin-button,
@@ -17081,6 +17088,7 @@ popout-select {
   background: var(--COLOR-BG-SECONDARY);
   color: var(--COLOR-TEXT-LIGHT);
   border: 1px solid var(--COLOR-BG-SECONDARY);
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
 }
 
@@ -17362,6 +17370,7 @@ body.has-line-design .blog-listing .article__image {
   overflow: hidden;
   text-overflow: ellipsis;
   display: box;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   /*! autoprefixer: off */
   -webkit-box-orient: vertical;
@@ -17421,6 +17430,7 @@ body.has-line-design .blog-listing .article__image {
   overflow: hidden;
   text-overflow: ellipsis;
   display: box;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   /* autoprefixer: off */
   -webkit-box-orient: vertical;
@@ -18404,6 +18414,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
   transition: mask-position 0.3s, -webkit-mask-position 0.3s;
 }
 .collection__sidebar:hover {
+	mask-position: left top;
   -webkit-mask-position: left top;
 }
 .collection__sidebar .no-results {
@@ -21050,6 +21061,7 @@ body.grid-compact.has-line-design .brick__block__collection .look__slide {
   opacity: 0;
   transform: translateY(-100%);
   transition: transform 0.25s ease-in, opacity 0.2s ease;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
