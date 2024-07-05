@@ -24092,6 +24092,12 @@ body.has-header-sticky .timeline {
   top: 0;
   z-index: 3000;
 }
+
+/* Adjusting the height of the announcement bar */
+.announcement__wrapper--top, .announcement__bar:not(.desktop):not(.mobile), .announcement__bar-outer, .announcement__bar-holder { 
+  height: 23px; 
+}
+
 /* adding additional padding for the announcement bar not to hide the header on mobile */
 @media only screen and (max-width: 749px) {
   .header-sections header.theme__header .section-padding {
