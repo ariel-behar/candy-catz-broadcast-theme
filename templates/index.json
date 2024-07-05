@@ -462,7 +462,7 @@
       ],
       "custom_css": [
         ".wrapper--full-padded {padding-left: 0; padding-right: 0;}",
-        "@media only screen and (min-width: 1006px) {.section-columns .grid .grid-item:last-child {display: none; }}"
+        "@media only screen and (min-width: 990px) {.section-columns .grid .grid-item:last-child {display: none; }}"
       ],
       "settings": {
         "title": "",
