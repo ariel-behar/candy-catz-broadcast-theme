@@ -24247,7 +24247,7 @@ nav.drawer .drawer__body .drawer__menu {
 /* Adjusting the grid columns on large sizes for the product page */
 @media only screen and (min-width: 750px) {
   .product__wrapper--stretch .product__page {
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 6fr 4fr;
   }
 }
 
