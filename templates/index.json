@@ -135,7 +135,7 @@
         "height": "image-height",
         "width": "wrapper--full",
         "image_1": "shopify:\/\/shop_images\/menFavesDesk.jpg",
-        "link": "",
+        "link": "shopify:\/\/collections\/test-bestsellers-men",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify:\/\/shop_images\/menMobile_copy.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
@@ -145,6 +145,48 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#FFFFFF"
+      }
+    },
+    "section_tab_collections_Wc3GNb": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_XPTEYq": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "test-bestsellers-men",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_XPTEYq"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 2,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "slideshow": {
@@ -386,6 +428,7 @@
     "section_hero_9QPMnh",
     "section_tab_collections_aqTECq",
     "section_hero_PFp7m6",
+    "section_tab_collections_Wc3GNb",
     "slideshow",
     "image-with-text",
     "product-with-image",
