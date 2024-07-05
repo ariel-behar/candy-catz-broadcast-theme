@@ -192,7 +192,7 @@
     "section_hero_qjKLXr": {
       "type": "section-hero",
       "settings": {
-        "height": "screen-height-one-half",
+        "height": "image-height",
         "width": "wrapper--full",
         "image_1": "shopify:\/\/shop_images\/prideDesk.jpg",
         "link": "shopify:\/\/collections\/pride-2024",
