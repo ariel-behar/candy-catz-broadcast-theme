@@ -334,49 +334,6 @@
         "layout_mobile": "1"
       }
     },
-    "section_tab_collections_GTfVKm": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_QdRfbX": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "uv-bodysuits",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_QdRfbX"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 2,
-        "rows": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
     "section_columns_4WHbj7": {
       "type": "section-columns",
       "blocks": {
@@ -765,7 +722,6 @@
     "section_hero_qjKLXr",
     "section_tab_collections_Lj3G4p",
     "section_columns_A4ftKr",
-    "section_tab_collections_GTfVKm",
     "section_columns_4WHbj7",
     "slideshow",
     "image-with-text",
