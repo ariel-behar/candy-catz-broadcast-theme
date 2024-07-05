@@ -371,7 +371,7 @@
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "bg_color": "#000000",
         "color": "",
         "padding_top": 50,
