@@ -81,10 +81,10 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF"
+        "color": "#ffffff"
       }
     },
     "section_tab_collections_aqTECq": {
@@ -98,9 +98,9 @@
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -141,10 +141,10 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF"
+        "color": "#ffffff"
       }
     },
     "section_tab_collections_Wc3GNb": {
@@ -158,9 +158,9 @@
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -201,10 +201,10 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF"
+        "color": "#ffffff"
       }
     },
     "section_tab_collections_Lj3G4p": {
@@ -218,9 +218,9 @@
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -282,6 +282,7 @@
         "collection_EzHcTJ",
         "collection_rcUW9T"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
@@ -299,6 +300,91 @@
         "color": "",
         "padding_top": 10,
         "padding_bottom": 10
+      }
+    },
+    "section_columns_A4ftKr": {
+      "type": "section-columns",
+      "blocks": {
+        "image_NzB6zd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DarkDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xd4GPV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/primalDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_tYCHix": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uvPulseDesk.jpg",
+            "image_aspect_ratio": 1.5,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_NzB6zd",
+        "image_xd4GPV",
+        "image_tYCHix"
+      ],
+      "custom_css": [
+        ".wrapper--full-padded {padding-left: 0; padding-right: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "layout_mobile": "1"
       }
     },
     "slideshow": {
@@ -544,6 +630,7 @@
     "section_hero_qjKLXr",
     "section_tab_collections_Lj3G4p",
     "section_collections_list_kJRpaF",
+    "section_columns_A4ftKr",
     "slideshow",
     "image-with-text",
     "product-with-image",
