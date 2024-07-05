@@ -24078,7 +24078,7 @@ body.has-header-sticky .timeline {
 .header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
   position: fixed;
   top: 0;
-  z-index: 6000;
+  z-index: 3000;
 }
 /* adding additional padding for the announcement bar not to hide the header on mobile */
 @media only screen and (max-width: 749px) {
