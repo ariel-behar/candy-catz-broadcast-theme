@@ -13083,17 +13083,29 @@ body {
   .product__wrapper--stretch .product__page {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
 }
+
 .product__page .form__wrapper.is-sticky {
   position: sticky;
   top: var(--sticky-top, 0);
   z-index: 10;
 }
+
 @media only screen and (max-width: 749px) {
   .product__page .form__wrapper.is-sticky {
     position: static;
     top: 0;
   }
+}
+
+@media only screen and (min-width: 990px) {
+  /* Fixing the display order of the images on the product page on large screens */
+  .product__wrapper--grid-2 .product__slides {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 
 .product__wrapper {
