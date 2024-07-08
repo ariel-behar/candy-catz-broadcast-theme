@@ -13103,9 +13103,9 @@ body {
   /* Fixing the display order of the images on the product page on large screens */
   .product__wrapper--grid-2 .product__slides {
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .product__wrapper {
@@ -24354,6 +24354,12 @@ nav.drawer .drawer__body .drawer__menu {
   .boost-sd__sorting-label-wrapper .boost-sd__sorting-value {
       width: auto;
   }
+}
+
+@media only screen and (max-width: 767px) {
+  .boost-sd-container .boost-sd__toolbar-inner .boost-sd__toolbar-top-mobile .boost-sd__filter-tree-toggle-button, .boost-sd-container .boost-sd__toolbar-inner .boost-sd__toolbar-top-mobile .boost-sd__sorting {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) {
