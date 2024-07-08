@@ -24279,6 +24279,11 @@ nav.drawer .drawer__body .drawer__menu {
   margin-bottom: 0;
 }
 
+/* Removing the padding from the collection page header (Boost APP), because it was appearing as empty space on collections without an image */
+.boost-sd__header-main-2-content {
+  padding: 0;
+}
+
 /* Removing the margins from the collection page elements */
 .boost-sd-container .boost-sd-layout .boost-sd-right {
   margin-top: 0;
