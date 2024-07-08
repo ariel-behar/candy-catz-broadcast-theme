@@ -24155,8 +24155,12 @@ body.has-header-sticky .timeline {
 
 /* Adding a bit of padding on the left to the dropdown menus */
 .header__menu .header__dropdown.is-visible {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 30px 20px;
+}
+
+/* Adding a gap between menu items in header */
+.header__menu .header__dropdown.is-visible .menu__blocks {
+  gap: 10px;
 }
 /* Changing the font-family of the header to the one corresponding to the FONT-STACK-HEADING variable */
 .header__menu .menu__item .navtext{
