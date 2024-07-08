@@ -16,14 +16,14 @@
         "width": "wrapper--full",
         "image_1": "{{ collection.image }}",
         "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_height": "image-height--mobile",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF"
+        "color": "#ffffff"
       }
     },
     "9fef3eec-374d-4aa8-966c-d05b3537df60": {
