@@ -24098,6 +24098,11 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 /* GENERAL */
+/* Adding a gap between the grid images */
+.grid.grid--mobile-slider.grid--slider.is-enabled {
+  gap: 2px
+}
+
 /* Making the slider images for the Related and Recently viewed products smaller */
 .grid--slider .grid-item.product-item {
 	max-width: 330px;
