@@ -24120,6 +24120,18 @@ body.has-header-sticky .timeline {
   z-index: 7001;
 }
 
+/* Styling the Collections menu item in the mobile Drawer menu */
+.drawer.drawer--header .drawer__content .drawer__menu .sliderow__links .sliderule-grid.blocks-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 10px;
+}
+
+.drawer.drawer--header .drawer__content .drawer__menu .sliderow__links .sliderule-grid.blocks-6 .menu__block {
+  padding: 0;
+}
+
 /* Making the announcement bar fixed on top of the page */
 .header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
   position: fixed;
