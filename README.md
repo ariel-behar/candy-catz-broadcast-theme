@@ -5,7 +5,7 @@
 <div style='font-family: "Montserrat", sans-serif; font-optical-sizing: autoм font-weight: 400; font-style: normal;'>
 
 <h1 align="center" style="text-transform: uppercase">CANDY CATZ</h1>
-<h3 align="center" style="margin-top: 1px; text-align: center;" ><em>Unleash your inner meow</em></h3>
+<h3 align="center" style="margin-top: 1px; text-align: center;" ><em>Unleash your inner MEOW</em></h3>
 
 <br />
 
@@ -28,7 +28,7 @@
   </tr>
   <tr>
     <td align="center">
-        <a align="center" href="https://candycatz.com/" target="_blank">www.candycatz.com/</a>
+        <a align="center" href="https://candycatz.com/" target="_blank">www.candycatz.com</a>
     </td>
     <td align="center">
         <a href="https://github.com/ariel-behar/candy-catz-broadcast-theme" target="_blank">github.com/ariel-behar/candy-catz-broadcast-theme</a>
@@ -73,6 +73,8 @@
 <h3>Styling</h3>
 
 <blockquote>CSS</blockquote>
+
+<br />
 
 <h2>External integrations</h2>
 
