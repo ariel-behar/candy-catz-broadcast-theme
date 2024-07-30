@@ -159,6 +159,7 @@
         },
         "upsell_Miyb47": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "upsell_product": "jack-bag",
             "upsell_product_list": [
