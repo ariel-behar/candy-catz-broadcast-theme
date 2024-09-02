@@ -14,10 +14,10 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/obsidiaDesktop.jpg",
-        "link": "shopify:\/\/collections\/obsidia",
+        "image_1": "shopify:\/\/shop_images\/halloween2024Desktop.png",
+        "link": "shopify:\/\/collections\/all-halloween",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/obsidiaMOBILE.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/halloweenMOBILE.png",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -191,6 +191,7 @@
     },
     "section_hero_qjKLXr": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
@@ -212,6 +213,7 @@
       "blocks": {
         "collection_4ep79h": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "title": "",
             "featured_collection": "pride-2024",
@@ -233,6 +235,7 @@
       "block_order": [
         "collection_4ep79h"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "",
@@ -724,6 +727,7 @@
             "title_size": 0,
             "alignment": "center",
             "margin_top": 0,
+            "background_color": "",
             "html_area": ""
           }
         }
