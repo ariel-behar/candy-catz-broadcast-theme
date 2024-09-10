@@ -344,7 +344,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/meshDesk.jpg",
-            "image_aspect_ratio": 1.5,
+            "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
             "title": "",
@@ -363,7 +363,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dressesDesk.jpg",
-            "image_aspect_ratio": 1.5,
+            "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
             "title": "",
@@ -382,7 +382,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/bodysuitsDesk.jpg",
-            "image_aspect_ratio": 1.5,
+            "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
             "title": "",
@@ -401,7 +401,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sets_Desktop.jpg",
-            "image_aspect_ratio": 1.5,
+            "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
             "title": "",
@@ -420,7 +420,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/accessoriesDesk.jpg",
-            "image_aspect_ratio": 1.5,
+            "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
             "title": "",
