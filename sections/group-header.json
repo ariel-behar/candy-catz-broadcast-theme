@@ -112,7 +112,7 @@
         "image_wnnKKU": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/RaveWaveSearchBAr.2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
@@ -127,7 +127,7 @@
         "image_3wN3Cm": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/obisidiaSearchBAr_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
@@ -142,7 +142,7 @@
         "image_JMej6B": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/darkSearchBar_copy2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
@@ -157,7 +157,7 @@
         "image_BVGCmT": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/uvPulseSearchBar_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
@@ -172,7 +172,7 @@
         "image_6Gf7CC": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/menSearchBar_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
@@ -187,7 +187,7 @@
         "image_j73KPt": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "5",
             "image": "shopify:\/\/shop_images\/view_all_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
