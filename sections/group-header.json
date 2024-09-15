@@ -17,7 +17,7 @@
         "text_fpe78z": {
           "type": "text",
           "settings": {
-            "text": "<p>🎉 BUY 1, GET ONE FREE on all items marked with BOGO100! 🎉Use code: CCBDAY<\/p>",
+            "text": "<p><strong>🌈  BUY ONE, GET ONE 50% OFF! CODE BOGO50 🦄<\/strong><\/p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -28,6 +28,7 @@
         },
         "countdown_mhQmML": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "end_date": "2024-09-15",
             "end_time": "17:00",
