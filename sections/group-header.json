@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -17,9 +17,9 @@
         "text_fpe78z": {
           "type": "text",
           "settings": {
-            "text": "<p>🌈 <strong> <\/strong>BUY ONE, GET ONE 70% OFF! CODE BOGO70 🦄<\/p>",
+            "text": "<p>🌈 <strong> </strong>BUY ONE, GET ONE 70% OFF! CODE BOGO70 🦄</p>",
             "target_url_enabled": false,
-            "target_url": "shopify:\/\/collections\/shop-all",
+            "target_url": "shopify://collections/shop-all",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -51,14 +51,14 @@
           "disabled": true,
           "settings": {
             "position": "3",
-            "image": "shopify:\/\/shop_images\/1.2_98195ab2-de63-4574-9009-77d562daefc8.png",
+            "image": "shopify://shop_images/1.2_98195ab2-de63-4574-9009-77d562daefc8.png",
             "aspect_ratio": 1,
             "wide_image": false,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "WOMEN",
             "link_text": "",
-            "link": "shopify:\/\/collections\/best-womens",
+            "link": "shopify://collections/best-womens",
             "text_color": ""
           }
         },
@@ -67,14 +67,14 @@
           "disabled": true,
           "settings": {
             "position": "3",
-            "image": "shopify:\/\/shop_images\/il_fullxfull.4206309420_i62f_9cc70aa4-16fb-418b-b921-085821bfc456.jpg",
+            "image": "shopify://shop_images/il_fullxfull.4206309420_i62f_9cc70aa4-16fb-418b-b921-085821bfc456.jpg",
             "aspect_ratio": 1,
             "wide_image": false,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "MEN",
             "link_text": "",
-            "link": "shopify:\/\/collections\/male-most-wanted",
+            "link": "shopify://collections/male-most-wanted",
             "text_color": ""
           }
         },
@@ -98,7 +98,7 @@
           "disabled": true,
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/il_fullxfull.4044505721_4obd_c3b38fae-5808-4032-a2f6-974c4becebc9.jpg",
+            "image": "shopify://shop_images/il_fullxfull.4044505721_4obd_c3b38fae-5808-4032-a2f6-974c4becebc9.jpg",
             "aspect_ratio": 1,
             "wide_image": false,
             "overlay_opacity": 0,
@@ -113,14 +113,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/RaveWaveSearchBAr.2.jpg",
+            "image": "shopify://shop_images/RaveWaveSearchBAr.2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/collections\/rave",
+            "link": "shopify://collections/rave",
             "text_color": ""
           }
         },
@@ -128,14 +128,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/obisidiaSearchBAr_2.jpg",
+            "image": "shopify://shop_images/obisidiaSearchBAr_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/collections\/obsidia",
+            "link": "shopify://collections/obsidia",
             "text_color": ""
           }
         },
@@ -143,14 +143,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/darkSearchBar_copy2.jpg",
+            "image": "shopify://shop_images/darkSearchBar_copy2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/collections\/dark",
+            "link": "shopify://collections/dark",
             "text_color": ""
           }
         },
@@ -158,14 +158,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/uvPulseSearchBar_copy.jpg",
+            "image": "shopify://shop_images/uvPulseSearchBar_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/collections\/uv-bodysuits",
+            "link": "shopify://collections/uv-bodysuits",
             "text_color": ""
           }
         },
@@ -173,14 +173,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/menSearchBar_2.jpg",
+            "image": "shopify://shop_images/menSearchBar_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/collections\/test-bestsellers-men",
+            "link": "shopify://collections/bestsellers-men",
             "text_color": ""
           }
         },
@@ -188,14 +188,14 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify:\/\/shop_images\/view_all_copy.jpg",
+            "image": "shopify://shop_images/view_all_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
             "link_text": "",
-            "link": "shopify:\/\/pages\/collections",
+            "link": "shopify://pages/collections",
             "text_color": ""
           }
         }
@@ -225,7 +225,7 @@
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "cart",
-        "logo": "shopify:\/\/shop_images\/XxxLogo.jpg",
+        "logo": "shopify://shop_images/XxxLogo.jpg",
         "logo_max_limit": 125,
         "logo_max_limit_mobile": 125,
         "main_menu_linklist": "broadcast-theme-main-menu",
