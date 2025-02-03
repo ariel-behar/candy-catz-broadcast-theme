@@ -56,6 +56,7 @@
     "instagram_link": "https://www.instagram.com/candycatz.wear/",
     "facebook_link": "https://www.facebook.com/CandyCatzWear/",
     "pinterest_link": "https://www.pinterest.com/CandyCatzWear/",
+    "tumblr_link": "https://www.threads.net/@candycatz.wear",
     "product_grid_center": true,
     "overlay_text": false,
     "product_grid_aspect_ratio": 1.5,
@@ -95,70 +96,47 @@
     "submenu_link_hover_color": "#AB8C52",
     "footer_link_hover": "#212121",
     "sale_background_color": "#be563f",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "11532412952436166569": {
         "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "98be8eaf-c81a-477b-83db-1b6de7313048": {
         "type": "shopify://apps/boost-ai-search-discovery/blocks/boost-sd/7fc998ae-a150-4367-bab8-505d8a4503f7",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "385851483394302733": {
         "type": "shopify://apps/scroll-freely-infinite-scroll/blocks/scroll-freely/ab81353f-60e9-48db-81f5-5b6037635a06",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12512365888938011351": {
         "type": "shopify://apps/analyzify-ga4-ads-tracking/blocks/app-embed/69637cfd-dd6f-4511-aa97-7037cfb5515c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3824936769257688723": {
         "type": "shopify://apps/sami-product-labels/blocks/app-embed-block/b9b44663-5d51-4be1-8104-faedd68da8c5",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17676059084223943535": {
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17453258828962521766": {
         "type": "shopify://apps/captain-insure/blocks/app/a7ef2f88-bc96-4a68-ba4e-f042ccbc8beb",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "18228966181090706294": {
-        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
-        "settings": {
-          "storefrontAccessToken": "f9d96f6d2a4cb69b6206276920142c2d"
-        }
-      },
-      "18171216174956455555": {
-        "type": "shopify://apps/delivery-pickup/blocks/odd-block/80605365-b4f4-42ba-9b84-3d39984a49dc",
-        "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -408,8 +386,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
