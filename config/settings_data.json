@@ -138,11 +138,6 @@
         "disabled": false,
         "settings": {}
       },
-      "15796953133730294439": {
-        "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-        "disabled": true,
-        "settings": {}
-      },
       "11074193060611426105": {
         "type": "shopify://apps/froonze-customer-accounts/blocks/product_wishlist/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": false,
@@ -170,6 +165,11 @@
           "remove_button_text_color": "#ffffff",
           "custom_css": ""
         }
+      },
+      "15796953133730294439": {
+        "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "disabled": true,
+        "settings": {}
       }
     }
   },
