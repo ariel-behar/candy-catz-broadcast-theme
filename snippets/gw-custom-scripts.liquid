@@ -1,28 +1,36 @@
-<script>
+ <script>
+    
       var waitForContainer = setInterval(function () {
-        var filterWrapper = document.querySelector('.boost-sd-container');
+        var filterWrapper = document.getElementsByClassName('boost-sd__product-list')[0];
         if (filterWrapper) {
           function addWidgets() {
             window.ssw_widgets_products = [];
-            var gridItems = filterWrapper.querySelectorAll('.boost-pfs-filter-product-item');
+            var gridItems = filterWrapper.querySelectorAll('.boost-sd__product-item');
             gridItems.forEach(function (element) {
               var placeholder = element.querySelector('.gw-add-to-wishlist-product-card-placeholder');
               if (!placeholder) {
                 var getUrl = element.querySelector('.boost-sd__product-link').getAttribute('href');
                 var sswFaveIcon = `<div class="ssw-faveicon-custom" data-product-id="${getUrl}"></div>`;
+                var sswReviewListing = `<div class="ssw-review-custom" data-product-id="${getUrl}"></div>`;
                 window.ssw_widgets_products.push(getUrl);
                 var imageLink = element.querySelector('.boost-sd__product-item-grid-view-layout-image');
                 if (imageLink) {
                     imageLink.insertAdjacentHTML('beforebegin', sswFaveIcon);
                 }
+                 var prTitle = element.querySelector('.boost-sd__product-title');
+                if (prTitle) {
+                    prTitle.insertAdjacentHTML('beforebegin', sswReviewListing);
+                }
               }
             });
+
 
             function ssw_widgets(handles) {
               handles.forEach((handle) => {
 
+
                 var xhr = new XMLHttpRequest();
-                xhr.open("GET", "https://candycatz.com"+ handle + "?view=ssw-v2-layouts", true);
+                xhr.open("GET", "https://candycatz.net"+ handle + "?view=ssw-v2-layouts", true);
                 xhr.onreadystatechange = function() {
                   if (xhr.readyState === 4 && xhr.status === 200) {
                     var res = xhr.responseText;
@@ -34,6 +42,15 @@
                       var faveIcon = document.querySelector(`.ssw-faveicon-custom[data-product-id="${handle}"]`);
                       if (faveIcon) {
                         faveIcon.outerHTML = placeholder.outerHTML;
+                      }
+                    });
+
+                    var placeholdersAvg = tmp.querySelectorAll('.gw-rv-listing-average-placeholder');
+                    placeholdersAvg.forEach(function(placeholder) {
+                      
+                      var avgIcon = document.querySelector(`.ssw-review-custom[data-product-id="${handle}"]`);
+                      if (avgIcon) {
+                        avgIcon.outerHTML = placeholder.outerHTML;
                       }
                     });
                     }
@@ -59,5 +76,5 @@
           observer.observe(filterWrapper, { childList: true })
           clearInterval(waitForContainer)
         }
-      }, 1500);
+      }, 2500);
   </script>
