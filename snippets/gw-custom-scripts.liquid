@@ -1,0 +1,29 @@
+{% if template == "collection" %}
+  {% assign gwSettings = shop.metafields.ssw['settings'] %}
+{% if gwSettings.type == 'json' %}
+  {% assign gwSettings = shop.metafields.ssw['settings'].value %}
+{% endif %}
+{% if shop.customer_accounts_enabled or gwSettings.wishlist_users_only != 1 %}
+    <script>
+      var waitForContainer = setInterval(function () {
+        const wrapper = document.querySelector('.boost-sd-right .boost-sd__product-list.boost-sd__product-list--margin'); //usf_container
+        if (wrapper) {
+          const cards = document.querySelectorAll('.boost-pfs-filter-product-item');
+          cards.forEach((element) => {
+            const wish = document.querySelector('.gw-add-to-wishlist-product-card-placeholder');
+            
+            if (!element).find(wish) {
+              var productId = element.data('product-id'); //data
+              var findVariantId = element.find('form input[name="id"]');
+              var variantId = findVariantId[0].value;
+              var sswFaveIconV2 = `<div style="display: block;" class="gw-add-to-wishlist-product-card-placeholder" data-gw-product-id="${productId}" data-gw-variant-id="${variantId}"></div>`
+              element.find('.boost-sd__product-item-grid-view-layout-image').insertBefore(sswFaveIconV2);
+            }
+          })
+          clearInterval(waitForContainer)
+        }
+      }, 1000);
+    </script>
+  {% endif %}
+{% endif %}
+  
