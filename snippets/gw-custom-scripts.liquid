@@ -1,29 +1,63 @@
-{% if template == "collection" %}
-  {% assign gwSettings = shop.metafields.ssw['settings'] %}
-{% if gwSettings.type == 'json' %}
-  {% assign gwSettings = shop.metafields.ssw['settings'].value %}
-{% endif %}
-{% if shop.customer_accounts_enabled or gwSettings.wishlist_users_only != 1 %}
-    <script>
+<script>
       var waitForContainer = setInterval(function () {
-        const wrapper = document.querySelector('.boost-sd-right .boost-sd__product-list.boost-sd__product-list--margin'); //usf_container
-        if (wrapper) {
-          const cards = document.querySelectorAll('.boost-pfs-filter-product-item');
-          cards.forEach((element) => {
-            const wish = document.querySelector('.gw-add-to-wishlist-product-card-placeholder');
-            
-            if (!element).find(wish) {
-              var productId = element.data('product-id'); //data
-              var findVariantId = element.find('form input[name="id"]');
-              var variantId = findVariantId[0].value;
-              var sswFaveIconV2 = `<div style="display: block;" class="gw-add-to-wishlist-product-card-placeholder" data-gw-product-id="${productId}" data-gw-variant-id="${variantId}"></div>`
-              element.find('.boost-sd__product-item-grid-view-layout-image').insertBefore(sswFaveIconV2);
+        var filterWrapper = document.querySelector('.boost-sd-right .boost-sd__product-list.boost-sd__product-list--margin');
+        if (filterWrapper) {
+          function addWidgets() {
+            window.ssw_widgets_products = [];
+            var gridItems = filterWrapper.querySelectorAll('.boost-pfs-filter-product-item');
+            gridItems.forEach(function (element) {
+              var placeholder = element.querySelector('.gw-add-to-wishlist-product-card-placeholder');
+              if (!placeholder) {
+                var getUrl = element.querySelector('.boost-sd__product-link').getAttribute('href');
+                var sswFaveIcon = `<div class="ssw-faveicon-custom" data-product-id="${getUrl}"></div>`;
+                window.ssw_widgets_products.push(getUrl);
+                var imageLink = element.querySelector('.boost-sd__product-item-grid-view-layout-image');
+                if (imageLink) {
+                    imageLink.insertAdjacentHTML('beforebegin', sswFaveIcon);
+                }
+              }
+            });
+
+            function ssw_widgets(handles) {
+              handles.forEach((handle) => {
+
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "https://candycatz.com"+ handle + "?view=ssw-v2-layouts", true);
+                xhr.onreadystatechange = function() {
+                  if (xhr.readyState === 4 && xhr.status === 200) {
+                    var res = xhr.responseText;
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = res;
+                    var placeholders = tmp.querySelectorAll('.gw-add-to-wishlist-product-card-placeholder');
+                    placeholders.forEach(function(placeholder) {
+                      
+                      var faveIcon = document.querySelector(`.ssw-faveicon-custom[data-product-id="${handle}"]`);
+                      if (faveIcon) {
+                        faveIcon.outerHTML = placeholder.outerHTML;
+                      }
+                    });
+                    }
+                  };
+                xhr.send();
+              });
+              window.ssw_widgets_products = [];
             }
+            ssw_widgets(window.ssw_widgets_products);
+          }
+
+          addWidgets()
+
+          const observer = new MutationObserver(function (mutations) {
+            for (let mutation of mutations) {
+              if (mutation.type === 'childList') {
+                addWidgets()
+              }
+            }
+
           })
+
+          observer.observe(filterWrapper, { childList: true })
           clearInterval(waitForContainer)
         }
-      }, 1000);
-    </script>
-  {% endif %}
-{% endif %}
-  
+      }, 1500);
+  </script>
