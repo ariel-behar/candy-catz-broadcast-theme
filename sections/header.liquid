@@ -480,6 +480,10 @@
       </div>
     {%- endif -%}
 
+     <div class="header__mobile__button">
+      <div class="gw-wl-header-icon-placeholder"></div>
+     </div>
+
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__mobile__button">
         <a href="{{ routes.account_url }}" class="navlink{% if show_icons == false %} navlink--toplevel{% endif %}">
@@ -489,10 +493,6 @@
       </div>
     {%- endif -%}
 
-    <div class="header__mobile__button">
-      <div class="gw-wl-header-icon-placeholder"></div>
-    </div>
-    
     <div class="header__mobile__button">
       <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" data-cart-toggle>
         {{ cart_status }}
