@@ -15,7 +15,7 @@
         "height": "image-height",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/halloween2024Desktop.png",
-        "link": "shopify://collections/new-all-halloween",
+        "link": "shopify://collections/halloween",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/halloweenMOBILE.png",
         "flex_align_desktop": "align--middle-center-desktop",
@@ -34,7 +34,7 @@
           "type": "collection",
           "settings": {
             "title": "",
-            "featured_collection": "new-all-halloween",
+            "featured_collection": "halloween",
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
